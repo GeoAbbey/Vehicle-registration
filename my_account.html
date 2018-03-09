@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Lyso | My profile</title>
+
+
+    <link href="css/style2.css" rel="stylesheet">
+    <link href="css/dropzone.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="js/fancybox/jquery.fancybox.css?v=2.1.5" media="screen" />
+    <link rel="stylesheet" type="text/css" href="js/fancybox/helpers/jquery.fancybox-buttons.css?v=2.1.5" media="screen" />
+
+
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/css/bootstrap-multiselect.css"
+        type="text/css" />
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-inverse navbar-static-top example6">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar6">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="registration.html">
+                    <img class="navbar-brand text-hide" src="pic/logo.png" alt="HOME" style="float:left" ;>
+                </a>
+            </div>
+            <div id="navbar6" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active">
+                        <a href="my_account.html">My profile</a>
+                    </li>
+                    <li>
+                        <a class="active" href="#">Begin Application</a>
+                    </li>
+                    <li>
+                        <a class="active" href="#">Application Status</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Login/Register
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li>
+                                <a href="#">Login</a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="#">Register</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="sidebar-account">
+                    <div class="row ">
+                        <div class="col-lg-12">
+                            <div class="panel panel-primary">
+                                <div class="panel-heading">My profile</div>
+                                <div class="panel-body">
+                                    <ul class="nav">
+                                        <li>
+                                            <a class="active" href="my_account.html">My profile</a>
+                                        </li>
+                                        <li>
+                                            <a class="active" href="#">Begin Application</a>
+                                        </li>
+                                        <li>
+                                            <a class="active" href="#">Application Status</a>
+                                        </li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row hidden-xs">
+                        <div class="col-lg-12">
+                            <div class="well">
+                                <div class="row ">
+                                    <div class="col-lg-3">
+                                        <img src="pic/Crest.png" width="45" />
+                                    </div>
+                                    <div class="col-lg-9">
+
+                                        <h4 style="margin-top: 0">Express Service?</h4>
+                                        <p>Contact us at express@lyso.com</p>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-sm-9">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">Profile Details</div>
+                    <div class="panel-body">
+
+                        <div class="form-group">
+                            <div class="row">
+
+                                <div class="form-group">
+
+                                    <div class="col-sm-4">
+                                        <div class="form-group">
+                                            <label for="inputEmail1" class="col-sm-12 control-label">Profile Picture</label>
+                                            <div class="col-sm-11">
+                                                <img id="file-select" src="pic/size.gif" width="100%" />
+                                                <br />
+
+                                                <span class="btn btn-default btn-file">
+                                                    Click to upload
+                                                    <input type="file">
+                                                </span>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-8">
+                                        <div class="form-group">
+                                            <label for="title" class="col-sm-4 control-label">Initial</label>
+                                            <div class="col-sm-8">
+                                                <select class="form-control">
+                                                    <option value="1">Mr</option>
+                                                    <option value="2">Mrs</option>
+                                                    <option value="3">Miss</option>
+                                                    <option value="4">Ms</option>
+                                                    <option value="5">Dr</option>
+                                                    <option value="6">Professor</option>
+                                                    <option value="7">The Rt Revd Dr</option>
+                                                    <option value="8">The Most Revd</option>
+                                                    <option value="9">The Rt Revd</option>
+                                                    <option value="10">The Revd Canon</option>
+                                                    <option value="11">The Revd</option>
+                                                    <option value="12">The Rt Revd Professor</option>
+                                                    <option value="13">The Ven</option>
+                                                    <option value="14">The Most Revd Dr</option>
+                                                    <option value="16">Rabbi</option>
+                                                    <option value="17">Canon</option>
+                                                    <option value="18">Dame</option>
+                                                    <option value="19">Chief</option>
+                                                    <option value="20">Sister</option>
+                                                    <option value="21">Reverend</option>
+                                                    <option value="22">Major</option>
+                                                    <option value="23">Other</option>
+                                                    <option value="24">Cllr</option>
+                                                    <option value="25">Sir</option>
+                                                    <option value="26">Rt Hon Lord</option>
+                                                    <option value="27">Rt Hon</option>
+                                                    <option value="28">The Lord </option>
+                                                    <option value="29">Viscount</option>
+                                                    <option value="30">Viscountess</option>
+                                                    <option value="31">Baroness</option>
+                                                    <option value="32">Captain</option>
+                                                    <option value="33">Master</option>
+                                                    <option value="34">Very Revd</option>
+                                                    <option value="35">Lady</option>
+                                                    <option value="38">MP</option>
+                                                    <option value="39">King of Kings and Lord of Lords</option>
+                                                    <option value="40">Conquering Lion of the Tribe of Judah</option>
+                                                    <option value="41">Elect of God and Light of this World</option>
+                                                    <option value="42">His Own Divine Majesty</option>
+                                                    <option value="43">First Ancient King of Creation</option>
+                                                    <option value="44">King Alpha</option>
+                                                    <option value="45">Queen Omega</option>
+                                                    <option value="46">Beginning with Our End and First with Our Last</option>
+                                                    <option value="47">Protector of All Human Faith</option>
+                                                    <option value="48">Ruler of the Universe</option>
+                                                    <option value="49">Dude</option>
+                                                    <option value="50">Mx (gender-netural)</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="name" class="col-sm-4 control-label m-t-xs">First Name</label>
+                                            <div class="col-sm-8">
+                                                <input type="text" class="form-control m-t-xs" id="name" placeholder="Your First Name">
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="name" class="col-sm-4 control-label m-t-xs">Last Name</label>
+                                            <div class="col-sm-8">
+                                                <input type="text" class="form-control m-t-xs" id="name" placeholder="Your Last Name">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="sex" class="col-sm-4 control-label m-t-xs">Sex</label>
+                                            <div class="col-sm-8 m-t-xs">
+                                                <select class="form-control">
+                                                    <option value="1">Male</option>
+                                                    <option value="2">Female</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <form class="form-vertical">
+                            <fieldset>
+
+                                <div class="row">
+                                    <div class="col-sm-12 ">
+
+                                        <div class="row">
+                                            <div class="form-group col-sm-6">
+                                                <label for="bday">Date of Birth</label>
+                                                <input type="date" class="form-control " id="bday" min="2000-01-02">
+                                            </div>
+
+
+                                            <div class="form-group col-sm-6">
+                                                <label for="state">State of Origin</label>
+                                                <select class="form-control">
+                                                    <option value="1">Lagos</option>
+                                                    <option value="2">Oyo</option>
+                                                    <option value="3">Ogun</option>
+                                                    <option value="4">Edo</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="form-group col-sm-6">
+                                                <label for="occupation">Occupation</label>
+                                                <input type="text" class="form-control" id="occupation" placeholder="Occupation">
+                                            </div>
+                                            <div class="form-group col-sm-6">
+                                                <label for="address">Residential Address</label>
+                                                <input type="text" class="form-control" id="address" placeholder="Your Address">
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="form-group col-sm-6">
+                                                <label for="email">Email</label>
+                                                <input type="email" class="form-control " id="email" placeholder="Your Email Address">
+                                            </div>
+                                            <div class="form-group col-sm-6">
+                                                <label for="phone">Telephone</label>
+                                                <input type="text" class="form-control " id="phone" placeholder="Your Telephone Number">
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-sm-12">
+                                                    <div class="form-group col-sm-6">
+                                                        <form method="POST" action="#" enctype="multipart/form-data">
+                                                            <div class="form-group">
+                                                                <label for="phone">DS Certificate (PDF)</label>
+                                                                <div class="input-group input-file" name="pdfDoc">
+
+                                                                    <input type="text" class="form-control" placeholder='Choose a file...' />
+                                                                    <span class="input-group-btn">
+                                                                        <button class="btn btn-default btn-choose" type="button">Choose</button>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </form>
+                                                    </div>
+
+                                                    <div class="form-group col-sm-6">
+                                                        <form method="POST" action="#" enctype="multipart/form-data">
+                                                            <div class="form-group">
+                                                                <label for="phone">DS Certificate (Doc)</label>
+                                                                <div class="input-group input-file" name="pdfDoc">
+
+                                                                    <input type="text" class="form-control" placeholder='Choose a file...' />
+                                                                    <span class="input-group-btn">
+                                                                        <button class="btn btn-default btn-choose" type="button">Choose</button>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-sm-12">
+                                                <div>
+                                                    <label>
+                                                        <input type="checkbox"> We can contact you with relevant offers and news
+                                                    </label>
+                                                </div>
+
+                                                <br />
+                                                <button type="submit" class="btn btn-primary pull-right">Submit</button>
+                                            </div>
+
+                                        </div>
+
+
+
+
+
+                                    </div>
+
+                                </div>
+
+                            </fieldset>
+                        </form>
+
+
+                    </div>
+                </div>
+            </div>
+            <br />
+
+        </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/js/bootstrap-multiselect.js"></script>
+
+    <script src="js/dropzone.js"></script>
+
+    <script type="text/javascript" src="js/fancybox/jquery.fancybox.js?v=2.1.5"></script>
+    <script type="text/javascript" src="js/fancybox/helpers/jquery.fancybox-buttons.js?v=2.1.5"></script>
+    <script type="text/javascript" src="js/fancybox/helpers/jquery.fancybox-media.js?v=2.1.5"></script>
+    <script src="js/global.js"></script>
+    <script src="js/dropzone2.js"></script>
+</body>
+
+</html>
